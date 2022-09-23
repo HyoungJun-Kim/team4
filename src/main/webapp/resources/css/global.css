@@ -1,0 +1,15 @@
+:root{
+    --mainColor : rgb(24, 24, 24);
+    --subColor : rgb(59, 59, 59);
+    --borderColor : rgba(209, 209, 209, 0.486);
+    --fontColor : rgb(0, 173, 26); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+

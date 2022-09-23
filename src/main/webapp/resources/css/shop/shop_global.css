@@ -1,0 +1,96 @@
+header{
+    width: 100%;
+    min-width: 1200px;
+    height: 100px;
+    display: flex;
+    background-color: var(--subColor);
+    border-bottom: 0.5px solid var(--borderColor);
+}
+
+header .logo{
+    width: 30%;
+    height: 100%;
+    color: var(--fontColor);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo span{
+    color : white;
+}
+
+header .menu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+header .login{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    border: 3px solid crimson;
+    
+}
+
+header .login a{
+    color: rgb(209, 209, 209);
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    min-width: 1200px;
+    background-color: var(--subColor);
+}
+
+footer{
+    width: 100%;
+    min-width: 1200px;
+    height: 300px;
+    border-top: 0.5px solid var(--borderColor);
+    background-color: var(--subColor);
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer_logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer_logo h1{
+    color: var(--fontColor);
+}
+
+footer .footer_logo h1 span{
+    color: white;
+}
+
+footer .footer_content{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(209, 209, 209);
+}
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/resources/css/user/mypage.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--내정보-->
+    <div class="myInfoCon">
+        <div class="infoTopDiv">
+            <div class="userImgDiv">
+                <img src="/resources/img/user/유저이미지.jpg" alt="" id="userImg">
+            </div>
+            <div class="userInfoDiv">
+                <span class="userNameSpan">최원석</span>님
+            </div>
+            <div class="userModifyDiv">
+                <span class="">회원정보수정</span>
+                <span class="">회원탈퇴</span>
+            </div>
+        </div>
+
+        <div class="infoBottomDiv">
+            <div class="userGradeDiv">
+                회원등급
+            </div>
+            <div class="userQuoponHistoryDiv">
+                쿠폰 사용내역
+            </div>
+            <div class="userOrderHistoryDiv">
+                구매 내역
+            </div>
+        </div>
+    </div>
+    <!--내 활동 내역-->
+    <div class="userHistoryCon">
+        
+        <div class="deliveryHisroyDiv">
+            진행중인 주문내역
+        </div>
+        <div class="etcHistoryDiv">
+            <span>리뷰내역</span>
+            <span>문의내역</span> 
+            <span>작성글내역</span>
+            
+        </div>
+    </div>
+
+    <!--구매내역 보기 모달 컨테이너-->
+    <div class="orderHistoryModalCon">
+        <div class="orderHistoryDiv">
+            <table class="orderHistoryTable">
+                <thead>
+                    <tr>
+                        <th>상세보기</th>
+                        <th>상품명</th>
+                        <th>수량</th>
+                        <th>총금액</th>
+                        <th>구매확정일자</th>
+                        <th>후기작성여부</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>매출번호1</td>
+                        <td>상품1</td>
+                        <td>수량1</td>
+                        <td>금액1</td>
+                        <td>구매확정일자1</td>
+                        <td>완료</td>
+                    </tr>
+                    <tr>
+                        <td>매출번호2</td>
+                        <td>상품2</td>
+                        <td>수량2</td>
+                        <td>금액2</td>
+                        <td>구매확정일자2</td>
+                        <td>기한초과</td>
+                    </tr>
+                    <tr>
+                        <td>매출번호3</td>
+                        <td>상품3</td>
+                        <td>수량3</td>
+                        <td>금액3</td>
+                        <td>구매확정일자3</td>
+                        <td>기한초과</td>
+                    </tr>
+                    <tr>
+                        <td>매출번호4</td>
+                        <td>상품4</td>
+                        <td>수량4</td>
+                        <td>금액4</td>
+                        <td>구매확정일자4</td>
+                        <td><span class="writeReviewSpan"> 작성하기</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/resources/js/user/mypage.js"></script>
+</body>
+</html>
