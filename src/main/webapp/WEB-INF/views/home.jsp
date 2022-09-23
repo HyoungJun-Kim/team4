@@ -14,7 +14,7 @@
 	<c:if test="${sessionScope.login_id ne null}">
 		${sessionScope.login_id } 님 
 	</c:if>
-	<h1>환영합니다.</h1>
+	<h1>환영합합니다.</h1>
 	<a href="shop">쇼핑몰 일반</a>
 	<a href="shop/admin">쇼핑몰 관리자</a>
 	<a href="community/main">커뮤니티</a>
